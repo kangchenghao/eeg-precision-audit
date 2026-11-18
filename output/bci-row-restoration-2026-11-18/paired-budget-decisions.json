@@ -1,0 +1,550 @@
+{
+  "schema": "csp-static-budget-pairs-v1",
+  "training_freeze": "bca444e99dc0c8a01c066d41fda7e6ad377cfc3a083a0fd0a1d09800f8aa15c0",
+  "paired_protocol": "Compare T-selected mixed and equal-payload uniform decisions on the identical E trials.",
+  "hindsight_distance": "Across all E-reference-minimizing static masks, inclusive range of trial decisions differing from uniform.",
+  "budgets": [
+    {
+      "upgraded_rows": 1,
+      "uniform_bits": 9,
+      "mixed_vs_uniform_reference": {
+        "both_match": 1278,
+        "only_mixed_matches": 6,
+        "only_uniform_matches": 7,
+        "neither_matches": 5
+      },
+      "mixed_vs_uniform_class_label": {
+        "both_match": 957,
+        "only_mixed_matches": 6,
+        "only_uniform_matches": 7,
+        "neither_matches": 326
+      },
+      "hindsight_vs_uniform_decisions_different_min": 12,
+      "hindsight_vs_uniform_decisions_different_max": 12
+    },
+    {
+      "upgraded_rows": 2,
+      "uniform_bits": 10,
+      "mixed_vs_uniform_reference": {
+        "both_match": 1290,
+        "only_mixed_matches": 1,
+        "only_uniform_matches": 3,
+        "neither_matches": 2
+      },
+      "mixed_vs_uniform_class_label": {
+        "both_match": 959,
+        "only_mixed_matches": 3,
+        "only_uniform_matches": 1,
+        "neither_matches": 333
+      },
+      "hindsight_vs_uniform_decisions_different_min": 3,
+      "hindsight_vs_uniform_decisions_different_max": 3
+    },
+    {
+      "upgraded_rows": 3,
+      "uniform_bits": 11,
+      "mixed_vs_uniform_reference": {
+        "both_match": 1292,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 4,
+        "neither_matches": 0
+      },
+      "mixed_vs_uniform_class_label": {
+        "both_match": 960,
+        "only_mixed_matches": 1,
+        "only_uniform_matches": 3,
+        "neither_matches": 332
+      },
+      "hindsight_vs_uniform_decisions_different_min": 3,
+      "hindsight_vs_uniform_decisions_different_max": 3
+    }
+  ],
+  "subjects": [
+    {
+      "subject": 1,
+      "upgraded_rows": 1,
+      "mixed_vs_uniform_reference": {
+        "both_match": 143,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 0,
+        "neither_matches": 1
+      },
+      "mixed_vs_uniform_class_label": {
+        "both_match": 129,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 0,
+        "neither_matches": 15
+      },
+      "hindsight_vs_uniform_decisions_different_min": 0,
+      "hindsight_vs_uniform_decisions_different_max": 0
+    },
+    {
+      "subject": 1,
+      "upgraded_rows": 2,
+      "mixed_vs_uniform_reference": {
+        "both_match": 144,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 0,
+        "neither_matches": 0
+      },
+      "mixed_vs_uniform_class_label": {
+        "both_match": 128,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 0,
+        "neither_matches": 16
+      },
+      "hindsight_vs_uniform_decisions_different_min": 0,
+      "hindsight_vs_uniform_decisions_different_max": 0
+    },
+    {
+      "subject": 1,
+      "upgraded_rows": 3,
+      "mixed_vs_uniform_reference": {
+        "both_match": 144,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 0,
+        "neither_matches": 0
+      },
+      "mixed_vs_uniform_class_label": {
+        "both_match": 128,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 0,
+        "neither_matches": 16
+      },
+      "hindsight_vs_uniform_decisions_different_min": 0,
+      "hindsight_vs_uniform_decisions_different_max": 0
+    },
+    {
+      "subject": 2,
+      "upgraded_rows": 1,
+      "mixed_vs_uniform_reference": {
+        "both_match": 131,
+        "only_mixed_matches": 6,
+        "only_uniform_matches": 6,
+        "neither_matches": 1
+      },
+      "mixed_vs_uniform_class_label": {
+        "both_match": 69,
+        "only_mixed_matches": 6,
+        "only_uniform_matches": 6,
+        "neither_matches": 63
+      },
+      "hindsight_vs_uniform_decisions_different_min": 12,
+      "hindsight_vs_uniform_decisions_different_max": 12
+    },
+    {
+      "subject": 2,
+      "upgraded_rows": 2,
+      "mixed_vs_uniform_reference": {
+        "both_match": 142,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 0,
+        "neither_matches": 2
+      },
+      "mixed_vs_uniform_class_label": {
+        "both_match": 72,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 0,
+        "neither_matches": 72
+      },
+      "hindsight_vs_uniform_decisions_different_min": 0,
+      "hindsight_vs_uniform_decisions_different_max": 0
+    },
+    {
+      "subject": 2,
+      "upgraded_rows": 3,
+      "mixed_vs_uniform_reference": {
+        "both_match": 143,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 1,
+        "neither_matches": 0
+      },
+      "mixed_vs_uniform_class_label": {
+        "both_match": 73,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 1,
+        "neither_matches": 70
+      },
+      "hindsight_vs_uniform_decisions_different_min": 1,
+      "hindsight_vs_uniform_decisions_different_max": 1
+    },
+    {
+      "subject": 3,
+      "upgraded_rows": 1,
+      "mixed_vs_uniform_reference": {
+        "both_match": 144,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 0,
+        "neither_matches": 0
+      },
+      "mixed_vs_uniform_class_label": {
+        "both_match": 137,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 0,
+        "neither_matches": 7
+      },
+      "hindsight_vs_uniform_decisions_different_min": 0,
+      "hindsight_vs_uniform_decisions_different_max": 0
+    },
+    {
+      "subject": 3,
+      "upgraded_rows": 2,
+      "mixed_vs_uniform_reference": {
+        "both_match": 144,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 0,
+        "neither_matches": 0
+      },
+      "mixed_vs_uniform_class_label": {
+        "both_match": 137,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 0,
+        "neither_matches": 7
+      },
+      "hindsight_vs_uniform_decisions_different_min": 0,
+      "hindsight_vs_uniform_decisions_different_max": 0
+    },
+    {
+      "subject": 3,
+      "upgraded_rows": 3,
+      "mixed_vs_uniform_reference": {
+        "both_match": 144,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 0,
+        "neither_matches": 0
+      },
+      "mixed_vs_uniform_class_label": {
+        "both_match": 137,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 0,
+        "neither_matches": 7
+      },
+      "hindsight_vs_uniform_decisions_different_min": 0,
+      "hindsight_vs_uniform_decisions_different_max": 0
+    },
+    {
+      "subject": 4,
+      "upgraded_rows": 1,
+      "mixed_vs_uniform_reference": {
+        "both_match": 141,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 1,
+        "neither_matches": 2
+      },
+      "mixed_vs_uniform_class_label": {
+        "both_match": 100,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 1,
+        "neither_matches": 43
+      },
+      "hindsight_vs_uniform_decisions_different_min": 0,
+      "hindsight_vs_uniform_decisions_different_max": 0
+    },
+    {
+      "subject": 4,
+      "upgraded_rows": 2,
+      "mixed_vs_uniform_reference": {
+        "both_match": 143,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 1,
+        "neither_matches": 0
+      },
+      "mixed_vs_uniform_class_label": {
+        "both_match": 102,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 1,
+        "neither_matches": 41
+      },
+      "hindsight_vs_uniform_decisions_different_min": 1,
+      "hindsight_vs_uniform_decisions_different_max": 1
+    },
+    {
+      "subject": 4,
+      "upgraded_rows": 3,
+      "mixed_vs_uniform_reference": {
+        "both_match": 142,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 2,
+        "neither_matches": 0
+      },
+      "mixed_vs_uniform_class_label": {
+        "both_match": 101,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 2,
+        "neither_matches": 41
+      },
+      "hindsight_vs_uniform_decisions_different_min": 2,
+      "hindsight_vs_uniform_decisions_different_max": 2
+    },
+    {
+      "subject": 5,
+      "upgraded_rows": 1,
+      "mixed_vs_uniform_reference": {
+        "both_match": 144,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 0,
+        "neither_matches": 0
+      },
+      "mixed_vs_uniform_class_label": {
+        "both_match": 72,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 0,
+        "neither_matches": 72
+      },
+      "hindsight_vs_uniform_decisions_different_min": 0,
+      "hindsight_vs_uniform_decisions_different_max": 0
+    },
+    {
+      "subject": 5,
+      "upgraded_rows": 2,
+      "mixed_vs_uniform_reference": {
+        "both_match": 144,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 0,
+        "neither_matches": 0
+      },
+      "mixed_vs_uniform_class_label": {
+        "both_match": 72,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 0,
+        "neither_matches": 72
+      },
+      "hindsight_vs_uniform_decisions_different_min": 0,
+      "hindsight_vs_uniform_decisions_different_max": 0
+    },
+    {
+      "subject": 5,
+      "upgraded_rows": 3,
+      "mixed_vs_uniform_reference": {
+        "both_match": 144,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 0,
+        "neither_matches": 0
+      },
+      "mixed_vs_uniform_class_label": {
+        "both_match": 72,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 0,
+        "neither_matches": 72
+      },
+      "hindsight_vs_uniform_decisions_different_min": 0,
+      "hindsight_vs_uniform_decisions_different_max": 0
+    },
+    {
+      "subject": 6,
+      "upgraded_rows": 1,
+      "mixed_vs_uniform_reference": {
+        "both_match": 144,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 0,
+        "neither_matches": 0
+      },
+      "mixed_vs_uniform_class_label": {
+        "both_match": 96,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 0,
+        "neither_matches": 48
+      },
+      "hindsight_vs_uniform_decisions_different_min": 0,
+      "hindsight_vs_uniform_decisions_different_max": 0
+    },
+    {
+      "subject": 6,
+      "upgraded_rows": 2,
+      "mixed_vs_uniform_reference": {
+        "both_match": 143,
+        "only_mixed_matches": 1,
+        "only_uniform_matches": 0,
+        "neither_matches": 0
+      },
+      "mixed_vs_uniform_class_label": {
+        "both_match": 95,
+        "only_mixed_matches": 1,
+        "only_uniform_matches": 0,
+        "neither_matches": 48
+      },
+      "hindsight_vs_uniform_decisions_different_min": 1,
+      "hindsight_vs_uniform_decisions_different_max": 1
+    },
+    {
+      "subject": 6,
+      "upgraded_rows": 3,
+      "mixed_vs_uniform_reference": {
+        "both_match": 144,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 0,
+        "neither_matches": 0
+      },
+      "mixed_vs_uniform_class_label": {
+        "both_match": 96,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 0,
+        "neither_matches": 48
+      },
+      "hindsight_vs_uniform_decisions_different_min": 0,
+      "hindsight_vs_uniform_decisions_different_max": 0
+    },
+    {
+      "subject": 7,
+      "upgraded_rows": 1,
+      "mixed_vs_uniform_reference": {
+        "both_match": 143,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 0,
+        "neither_matches": 1
+      },
+      "mixed_vs_uniform_class_label": {
+        "both_match": 84,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 0,
+        "neither_matches": 60
+      },
+      "hindsight_vs_uniform_decisions_different_min": 0,
+      "hindsight_vs_uniform_decisions_different_max": 0
+    },
+    {
+      "subject": 7,
+      "upgraded_rows": 2,
+      "mixed_vs_uniform_reference": {
+        "both_match": 143,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 1,
+        "neither_matches": 0
+      },
+      "mixed_vs_uniform_class_label": {
+        "both_match": 83,
+        "only_mixed_matches": 1,
+        "only_uniform_matches": 0,
+        "neither_matches": 60
+      },
+      "hindsight_vs_uniform_decisions_different_min": 1,
+      "hindsight_vs_uniform_decisions_different_max": 1
+    },
+    {
+      "subject": 7,
+      "upgraded_rows": 3,
+      "mixed_vs_uniform_reference": {
+        "both_match": 144,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 0,
+        "neither_matches": 0
+      },
+      "mixed_vs_uniform_class_label": {
+        "both_match": 83,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 0,
+        "neither_matches": 61
+      },
+      "hindsight_vs_uniform_decisions_different_min": 0,
+      "hindsight_vs_uniform_decisions_different_max": 0
+    },
+    {
+      "subject": 8,
+      "upgraded_rows": 1,
+      "mixed_vs_uniform_reference": {
+        "both_match": 144,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 0,
+        "neither_matches": 0
+      },
+      "mixed_vs_uniform_class_label": {
+        "both_match": 140,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 0,
+        "neither_matches": 4
+      },
+      "hindsight_vs_uniform_decisions_different_min": 0,
+      "hindsight_vs_uniform_decisions_different_max": 0
+    },
+    {
+      "subject": 8,
+      "upgraded_rows": 2,
+      "mixed_vs_uniform_reference": {
+        "both_match": 144,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 0,
+        "neither_matches": 0
+      },
+      "mixed_vs_uniform_class_label": {
+        "both_match": 140,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 0,
+        "neither_matches": 4
+      },
+      "hindsight_vs_uniform_decisions_different_min": 0,
+      "hindsight_vs_uniform_decisions_different_max": 0
+    },
+    {
+      "subject": 8,
+      "upgraded_rows": 3,
+      "mixed_vs_uniform_reference": {
+        "both_match": 144,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 0,
+        "neither_matches": 0
+      },
+      "mixed_vs_uniform_class_label": {
+        "both_match": 140,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 0,
+        "neither_matches": 4
+      },
+      "hindsight_vs_uniform_decisions_different_min": 0,
+      "hindsight_vs_uniform_decisions_different_max": 0
+    },
+    {
+      "subject": 9,
+      "upgraded_rows": 1,
+      "mixed_vs_uniform_reference": {
+        "both_match": 144,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 0,
+        "neither_matches": 0
+      },
+      "mixed_vs_uniform_class_label": {
+        "both_match": 130,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 0,
+        "neither_matches": 14
+      },
+      "hindsight_vs_uniform_decisions_different_min": 0,
+      "hindsight_vs_uniform_decisions_different_max": 0
+    },
+    {
+      "subject": 9,
+      "upgraded_rows": 2,
+      "mixed_vs_uniform_reference": {
+        "both_match": 143,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 1,
+        "neither_matches": 0
+      },
+      "mixed_vs_uniform_class_label": {
+        "both_match": 130,
+        "only_mixed_matches": 1,
+        "only_uniform_matches": 0,
+        "neither_matches": 13
+      },
+      "hindsight_vs_uniform_decisions_different_min": 0,
+      "hindsight_vs_uniform_decisions_different_max": 0
+    },
+    {
+      "subject": 9,
+      "upgraded_rows": 3,
+      "mixed_vs_uniform_reference": {
+        "both_match": 143,
+        "only_mixed_matches": 0,
+        "only_uniform_matches": 1,
+        "neither_matches": 0
+      },
+      "mixed_vs_uniform_class_label": {
+        "both_match": 130,
+        "only_mixed_matches": 1,
+        "only_uniform_matches": 0,
+        "neither_matches": 13
+      },
+      "hindsight_vs_uniform_decisions_different_min": 0,
+      "hindsight_vs_uniform_decisions_different_max": 0
+    }
+  ]
+}

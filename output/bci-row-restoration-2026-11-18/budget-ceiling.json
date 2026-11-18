@@ -1,0 +1,507 @@
+{
+  "schema": "csp-static-budget-hindsight-v1",
+  "training_freeze": "bca444e99dc0c8a01c066d41fda7e6ad377cfc3a083a0fd0a1d09800f8aa15c0",
+  "reference": "Fixed 16-bit input with floating-point projection weights",
+  "selection_scope": "One fixed mask per person over all 144 already-observed E trials",
+  "objective": "Fewest E decisions differing from the reference, independent of true labels",
+  "ties": "All minimizing masks retained. Correct-count endpoints describe the full tie set.",
+  "budgets": [
+    {
+      "upgraded_rows": 1,
+      "weight_payload_bytes": 99,
+      "uniform_bits": 9,
+      "totals": {
+        "trials": 1296,
+        "train_choice_disagreements": 12,
+        "uniform_disagreements": 11,
+        "hindsight_disagreements": 11,
+        "train_choice_correct": 963,
+        "uniform_correct": 964,
+        "hindsight_correct_min": 964,
+        "hindsight_correct_max": 964
+      },
+      "hindsight_mixed_vs_uniform_people": {
+        "fewer": 0,
+        "equal": 9,
+        "more": 0
+      },
+      "subjects": [
+        {
+          "subject": 1,
+          "trials": 144,
+          "train_choice_disagreements": 1,
+          "uniform_disagreements": 1,
+          "train_choice_correct": 129,
+          "uniform_correct": 129,
+          "hindsight_disagreements": 1,
+          "hindsight_masks": [
+            4
+          ],
+          "hindsight_correct_min": 129,
+          "hindsight_correct_max": 129
+        },
+        {
+          "subject": 2,
+          "trials": 144,
+          "train_choice_disagreements": 7,
+          "uniform_disagreements": 7,
+          "train_choice_correct": 75,
+          "uniform_correct": 75,
+          "hindsight_disagreements": 7,
+          "hindsight_masks": [
+            2,
+            4
+          ],
+          "hindsight_correct_min": 75,
+          "hindsight_correct_max": 75
+        },
+        {
+          "subject": 3,
+          "trials": 144,
+          "train_choice_disagreements": 0,
+          "uniform_disagreements": 0,
+          "train_choice_correct": 137,
+          "uniform_correct": 137,
+          "hindsight_disagreements": 0,
+          "hindsight_masks": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "hindsight_correct_min": 137,
+          "hindsight_correct_max": 137
+        },
+        {
+          "subject": 4,
+          "trials": 144,
+          "train_choice_disagreements": 3,
+          "uniform_disagreements": 2,
+          "train_choice_correct": 100,
+          "uniform_correct": 101,
+          "hindsight_disagreements": 2,
+          "hindsight_masks": [
+            8
+          ],
+          "hindsight_correct_min": 101,
+          "hindsight_correct_max": 101
+        },
+        {
+          "subject": 5,
+          "trials": 144,
+          "train_choice_disagreements": 0,
+          "uniform_disagreements": 0,
+          "train_choice_correct": 72,
+          "uniform_correct": 72,
+          "hindsight_disagreements": 0,
+          "hindsight_masks": [
+            4
+          ],
+          "hindsight_correct_min": 72,
+          "hindsight_correct_max": 72
+        },
+        {
+          "subject": 6,
+          "trials": 144,
+          "train_choice_disagreements": 0,
+          "uniform_disagreements": 0,
+          "train_choice_correct": 96,
+          "uniform_correct": 96,
+          "hindsight_disagreements": 0,
+          "hindsight_masks": [
+            2,
+            4,
+            8
+          ],
+          "hindsight_correct_min": 96,
+          "hindsight_correct_max": 96
+        },
+        {
+          "subject": 7,
+          "trials": 144,
+          "train_choice_disagreements": 1,
+          "uniform_disagreements": 1,
+          "train_choice_correct": 84,
+          "uniform_correct": 84,
+          "hindsight_disagreements": 1,
+          "hindsight_masks": [
+            1,
+            2
+          ],
+          "hindsight_correct_min": 84,
+          "hindsight_correct_max": 84
+        },
+        {
+          "subject": 8,
+          "trials": 144,
+          "train_choice_disagreements": 0,
+          "uniform_disagreements": 0,
+          "train_choice_correct": 140,
+          "uniform_correct": 140,
+          "hindsight_disagreements": 0,
+          "hindsight_masks": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "hindsight_correct_min": 140,
+          "hindsight_correct_max": 140
+        },
+        {
+          "subject": 9,
+          "trials": 144,
+          "train_choice_disagreements": 0,
+          "uniform_disagreements": 0,
+          "train_choice_correct": 130,
+          "uniform_correct": 130,
+          "hindsight_disagreements": 0,
+          "hindsight_masks": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "hindsight_correct_min": 130,
+          "hindsight_correct_max": 130
+        }
+      ]
+    },
+    {
+      "upgraded_rows": 2,
+      "weight_payload_bytes": 110,
+      "uniform_bits": 10,
+      "totals": {
+        "trials": 1296,
+        "train_choice_disagreements": 5,
+        "uniform_disagreements": 3,
+        "hindsight_disagreements": 4,
+        "train_choice_correct": 962,
+        "uniform_correct": 960,
+        "hindsight_correct_min": 961,
+        "hindsight_correct_max": 961
+      },
+      "hindsight_mixed_vs_uniform_people": {
+        "fewer": 1,
+        "equal": 6,
+        "more": 2
+      },
+      "subjects": [
+        {
+          "subject": 1,
+          "trials": 144,
+          "train_choice_disagreements": 0,
+          "uniform_disagreements": 0,
+          "train_choice_correct": 128,
+          "uniform_correct": 128,
+          "hindsight_disagreements": 0,
+          "hindsight_masks": [
+            5,
+            12
+          ],
+          "hindsight_correct_min": 128,
+          "hindsight_correct_max": 128
+        },
+        {
+          "subject": 2,
+          "trials": 144,
+          "train_choice_disagreements": 2,
+          "uniform_disagreements": 2,
+          "train_choice_correct": 72,
+          "uniform_correct": 72,
+          "hindsight_disagreements": 2,
+          "hindsight_masks": [
+            6
+          ],
+          "hindsight_correct_min": 72,
+          "hindsight_correct_max": 72
+        },
+        {
+          "subject": 3,
+          "trials": 144,
+          "train_choice_disagreements": 0,
+          "uniform_disagreements": 0,
+          "train_choice_correct": 137,
+          "uniform_correct": 137,
+          "hindsight_disagreements": 0,
+          "hindsight_masks": [
+            3,
+            5,
+            6,
+            9,
+            10,
+            12
+          ],
+          "hindsight_correct_min": 137,
+          "hindsight_correct_max": 137
+        },
+        {
+          "subject": 4,
+          "trials": 144,
+          "train_choice_disagreements": 1,
+          "uniform_disagreements": 0,
+          "train_choice_correct": 102,
+          "uniform_correct": 103,
+          "hindsight_disagreements": 1,
+          "hindsight_masks": [
+            3
+          ],
+          "hindsight_correct_min": 102,
+          "hindsight_correct_max": 102
+        },
+        {
+          "subject": 5,
+          "trials": 144,
+          "train_choice_disagreements": 0,
+          "uniform_disagreements": 0,
+          "train_choice_correct": 72,
+          "uniform_correct": 72,
+          "hindsight_disagreements": 0,
+          "hindsight_masks": [
+            5,
+            6,
+            12
+          ],
+          "hindsight_correct_min": 72,
+          "hindsight_correct_max": 72
+        },
+        {
+          "subject": 6,
+          "trials": 144,
+          "train_choice_disagreements": 0,
+          "uniform_disagreements": 1,
+          "train_choice_correct": 96,
+          "uniform_correct": 95,
+          "hindsight_disagreements": 0,
+          "hindsight_masks": [
+            3,
+            5,
+            6,
+            9,
+            10,
+            12
+          ],
+          "hindsight_correct_min": 96,
+          "hindsight_correct_max": 96
+        },
+        {
+          "subject": 7,
+          "trials": 144,
+          "train_choice_disagreements": 1,
+          "uniform_disagreements": 0,
+          "train_choice_correct": 84,
+          "uniform_correct": 83,
+          "hindsight_disagreements": 1,
+          "hindsight_masks": [
+            3,
+            5,
+            6,
+            9,
+            10
+          ],
+          "hindsight_correct_min": 84,
+          "hindsight_correct_max": 84
+        },
+        {
+          "subject": 8,
+          "trials": 144,
+          "train_choice_disagreements": 0,
+          "uniform_disagreements": 0,
+          "train_choice_correct": 140,
+          "uniform_correct": 140,
+          "hindsight_disagreements": 0,
+          "hindsight_masks": [
+            3,
+            5,
+            6,
+            9,
+            10,
+            12
+          ],
+          "hindsight_correct_min": 140,
+          "hindsight_correct_max": 140
+        },
+        {
+          "subject": 9,
+          "trials": 144,
+          "train_choice_disagreements": 1,
+          "uniform_disagreements": 0,
+          "train_choice_correct": 131,
+          "uniform_correct": 130,
+          "hindsight_disagreements": 0,
+          "hindsight_masks": [
+            3,
+            5,
+            9,
+            10,
+            12
+          ],
+          "hindsight_correct_min": 130,
+          "hindsight_correct_max": 130
+        }
+      ]
+    },
+    {
+      "upgraded_rows": 3,
+      "weight_payload_bytes": 121,
+      "uniform_bits": 11,
+      "totals": {
+        "trials": 1296,
+        "train_choice_disagreements": 4,
+        "uniform_disagreements": 0,
+        "hindsight_disagreements": 3,
+        "train_choice_correct": 961,
+        "uniform_correct": 963,
+        "hindsight_correct_min": 960,
+        "hindsight_correct_max": 960
+      },
+      "hindsight_mixed_vs_uniform_people": {
+        "fewer": 0,
+        "equal": 7,
+        "more": 2
+      },
+      "subjects": [
+        {
+          "subject": 1,
+          "trials": 144,
+          "train_choice_disagreements": 0,
+          "uniform_disagreements": 0,
+          "train_choice_correct": 128,
+          "uniform_correct": 128,
+          "hindsight_disagreements": 0,
+          "hindsight_masks": [
+            13
+          ],
+          "hindsight_correct_min": 128,
+          "hindsight_correct_max": 128
+        },
+        {
+          "subject": 2,
+          "trials": 144,
+          "train_choice_disagreements": 1,
+          "uniform_disagreements": 0,
+          "train_choice_correct": 73,
+          "uniform_correct": 74,
+          "hindsight_disagreements": 1,
+          "hindsight_masks": [
+            14
+          ],
+          "hindsight_correct_min": 73,
+          "hindsight_correct_max": 73
+        },
+        {
+          "subject": 3,
+          "trials": 144,
+          "train_choice_disagreements": 0,
+          "uniform_disagreements": 0,
+          "train_choice_correct": 137,
+          "uniform_correct": 137,
+          "hindsight_disagreements": 0,
+          "hindsight_masks": [
+            7,
+            11,
+            13,
+            14
+          ],
+          "hindsight_correct_min": 137,
+          "hindsight_correct_max": 137
+        },
+        {
+          "subject": 4,
+          "trials": 144,
+          "train_choice_disagreements": 2,
+          "uniform_disagreements": 0,
+          "train_choice_correct": 101,
+          "uniform_correct": 103,
+          "hindsight_disagreements": 2,
+          "hindsight_masks": [
+            7,
+            11,
+            14
+          ],
+          "hindsight_correct_min": 101,
+          "hindsight_correct_max": 101
+        },
+        {
+          "subject": 5,
+          "trials": 144,
+          "train_choice_disagreements": 0,
+          "uniform_disagreements": 0,
+          "train_choice_correct": 72,
+          "uniform_correct": 72,
+          "hindsight_disagreements": 0,
+          "hindsight_masks": [
+            7,
+            13,
+            14
+          ],
+          "hindsight_correct_min": 72,
+          "hindsight_correct_max": 72
+        },
+        {
+          "subject": 6,
+          "trials": 144,
+          "train_choice_disagreements": 0,
+          "uniform_disagreements": 0,
+          "train_choice_correct": 96,
+          "uniform_correct": 96,
+          "hindsight_disagreements": 0,
+          "hindsight_masks": [
+            7,
+            11,
+            13,
+            14
+          ],
+          "hindsight_correct_min": 96,
+          "hindsight_correct_max": 96
+        },
+        {
+          "subject": 7,
+          "trials": 144,
+          "train_choice_disagreements": 0,
+          "uniform_disagreements": 0,
+          "train_choice_correct": 83,
+          "uniform_correct": 83,
+          "hindsight_disagreements": 0,
+          "hindsight_masks": [
+            7
+          ],
+          "hindsight_correct_min": 83,
+          "hindsight_correct_max": 83
+        },
+        {
+          "subject": 8,
+          "trials": 144,
+          "train_choice_disagreements": 0,
+          "uniform_disagreements": 0,
+          "train_choice_correct": 140,
+          "uniform_correct": 140,
+          "hindsight_disagreements": 0,
+          "hindsight_masks": [
+            7,
+            11,
+            13,
+            14
+          ],
+          "hindsight_correct_min": 140,
+          "hindsight_correct_max": 140
+        },
+        {
+          "subject": 9,
+          "trials": 144,
+          "train_choice_disagreements": 1,
+          "uniform_disagreements": 0,
+          "train_choice_correct": 131,
+          "uniform_correct": 130,
+          "hindsight_disagreements": 0,
+          "hindsight_masks": [
+            11,
+            13
+          ],
+          "hindsight_correct_min": 130,
+          "hindsight_correct_max": 130
+        }
+      ]
+    }
+  ]
+}

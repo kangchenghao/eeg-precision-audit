@@ -1,0 +1,337 @@
+{
+  "status": "passed",
+  "session": "E (previously observed, post hoc)",
+  "frozen_model_count": 9,
+  "training_freeze_sha256": "bca444e99dc0c8a01c066d41fda7e6ad377cfc3a083a0fd0a1d09800f8aa15c0",
+  "independent_formula": "R = X16 X16^T / 750; score = b + sum_j a_j ln(w_j^T R w_j)",
+  "reference": "input16_only shares all 1296 decisions with float, while its numerical scores can differ",
+  "subset_semantics": "bit j (LSB=row 1) set means replace row j with the high endpoint",
+  "evaluated_trial_mask_comparisons": 62208,
+  "subsets": {
+    "8_to_float": [
+      {
+        "trials": 1296,
+        "disagrees": 23,
+        "repaired": 0,
+        "introduced": 0
+      },
+      {
+        "trials": 1296,
+        "disagrees": 21,
+        "repaired": 3,
+        "introduced": 1
+      },
+      {
+        "trials": 1296,
+        "disagrees": 18,
+        "repaired": 5,
+        "introduced": 0
+      },
+      {
+        "trials": 1296,
+        "disagrees": 13,
+        "repaired": 10,
+        "introduced": 0
+      },
+      {
+        "trials": 1296,
+        "disagrees": 13,
+        "repaired": 11,
+        "introduced": 1
+      },
+      {
+        "trials": 1296,
+        "disagrees": 10,
+        "repaired": 14,
+        "introduced": 1
+      },
+      {
+        "trials": 1296,
+        "disagrees": 8,
+        "repaired": 17,
+        "introduced": 2
+      },
+      {
+        "trials": 1296,
+        "disagrees": 5,
+        "repaired": 19,
+        "introduced": 1
+      },
+      {
+        "trials": 1296,
+        "disagrees": 17,
+        "repaired": 6,
+        "introduced": 0
+      },
+      {
+        "trials": 1296,
+        "disagrees": 16,
+        "repaired": 8,
+        "introduced": 1
+      },
+      {
+        "trials": 1296,
+        "disagrees": 13,
+        "repaired": 10,
+        "introduced": 0
+      },
+      {
+        "trials": 1296,
+        "disagrees": 9,
+        "repaired": 14,
+        "introduced": 0
+      },
+      {
+        "trials": 1296,
+        "disagrees": 9,
+        "repaired": 14,
+        "introduced": 0
+      },
+      {
+        "trials": 1296,
+        "disagrees": 9,
+        "repaired": 15,
+        "introduced": 1
+      },
+      {
+        "trials": 1296,
+        "disagrees": 5,
+        "repaired": 19,
+        "introduced": 1
+      },
+      {
+        "trials": 1296,
+        "disagrees": 0,
+        "repaired": 23,
+        "introduced": 0
+      }
+    ],
+    "12_to_float": [
+      {
+        "trials": 1296,
+        "disagrees": 1,
+        "repaired": 0,
+        "introduced": 0
+      },
+      {
+        "trials": 1296,
+        "disagrees": 0,
+        "repaired": 1,
+        "introduced": 0
+      },
+      {
+        "trials": 1296,
+        "disagrees": 2,
+        "repaired": 0,
+        "introduced": 1
+      },
+      {
+        "trials": 1296,
+        "disagrees": 0,
+        "repaired": 1,
+        "introduced": 0
+      },
+      {
+        "trials": 1296,
+        "disagrees": 1,
+        "repaired": 0,
+        "introduced": 0
+      },
+      {
+        "trials": 1296,
+        "disagrees": 0,
+        "repaired": 1,
+        "introduced": 0
+      },
+      {
+        "trials": 1296,
+        "disagrees": 2,
+        "repaired": 0,
+        "introduced": 1
+      },
+      {
+        "trials": 1296,
+        "disagrees": 0,
+        "repaired": 1,
+        "introduced": 0
+      },
+      {
+        "trials": 1296,
+        "disagrees": 1,
+        "repaired": 0,
+        "introduced": 0
+      },
+      {
+        "trials": 1296,
+        "disagrees": 0,
+        "repaired": 1,
+        "introduced": 0
+      },
+      {
+        "trials": 1296,
+        "disagrees": 2,
+        "repaired": 0,
+        "introduced": 1
+      },
+      {
+        "trials": 1296,
+        "disagrees": 0,
+        "repaired": 1,
+        "introduced": 0
+      },
+      {
+        "trials": 1296,
+        "disagrees": 1,
+        "repaired": 0,
+        "introduced": 0
+      },
+      {
+        "trials": 1296,
+        "disagrees": 0,
+        "repaired": 1,
+        "introduced": 0
+      },
+      {
+        "trials": 1296,
+        "disagrees": 2,
+        "repaired": 0,
+        "introduced": 1
+      },
+      {
+        "trials": 1296,
+        "disagrees": 0,
+        "repaired": 1,
+        "introduced": 0
+      }
+    ],
+    "8_to_12": [
+      {
+        "trials": 1296,
+        "disagrees": 23,
+        "repaired": 0,
+        "introduced": 0
+      },
+      {
+        "trials": 1296,
+        "disagrees": 21,
+        "repaired": 3,
+        "introduced": 1
+      },
+      {
+        "trials": 1296,
+        "disagrees": 18,
+        "repaired": 5,
+        "introduced": 0
+      },
+      {
+        "trials": 1296,
+        "disagrees": 14,
+        "repaired": 9,
+        "introduced": 0
+      },
+      {
+        "trials": 1296,
+        "disagrees": 13,
+        "repaired": 11,
+        "introduced": 1
+      },
+      {
+        "trials": 1296,
+        "disagrees": 11,
+        "repaired": 13,
+        "introduced": 1
+      },
+      {
+        "trials": 1296,
+        "disagrees": 7,
+        "repaired": 18,
+        "introduced": 2
+      },
+      {
+        "trials": 1296,
+        "disagrees": 6,
+        "repaired": 19,
+        "introduced": 2
+      },
+      {
+        "trials": 1296,
+        "disagrees": 17,
+        "repaired": 6,
+        "introduced": 0
+      },
+      {
+        "trials": 1296,
+        "disagrees": 17,
+        "repaired": 7,
+        "introduced": 1
+      },
+      {
+        "trials": 1296,
+        "disagrees": 13,
+        "repaired": 10,
+        "introduced": 0
+      },
+      {
+        "trials": 1296,
+        "disagrees": 12,
+        "repaired": 11,
+        "introduced": 0
+      },
+      {
+        "trials": 1296,
+        "disagrees": 9,
+        "repaired": 14,
+        "introduced": 0
+      },
+      {
+        "trials": 1296,
+        "disagrees": 9,
+        "repaired": 15,
+        "introduced": 1
+      },
+      {
+        "trials": 1296,
+        "disagrees": 6,
+        "repaired": 19,
+        "introduced": 2
+      },
+      {
+        "trials": 1296,
+        "disagrees": 1,
+        "repaired": 22,
+        "introduced": 0
+      }
+    ]
+  },
+  "residuals": {
+    "max_feature_residual": 1.2434497875801753e-14,
+    "max_score_residual": 4.618527782440651e-14,
+    "max_lognonlinearity_decomposition_residual": 7.606762442158299e-15
+  },
+  "matching_primary_csv_rows": 48,
+  "decomposition": "For e=wq-w: Delta P=2w^TRe+e^TRe. Multiply both terms by the same positive log secant and LDA weight, then sum over rows. Individual summands are descriptive, not alternative implemented signal paths.",
+  "distinct_E_trials": 1296,
+  "mechanism": {
+    "8": {
+      "trials": 1296,
+      "flipped": 23,
+      "row_trials": 5184,
+      "abs_cross_power_exceeds_self_power": 5125,
+      "cross_score_larger_among_flips": 23,
+      "opposite_score_terms_among_flips": 7,
+      "cross_score_alone_crosses_among_flips": 23,
+      "cross_score_alone_crosses_among_agreements": 0
+    },
+    "12": {
+      "trials": 1296,
+      "flipped": 1,
+      "row_trials": 5184,
+      "abs_cross_power_exceeds_self_power": 5180,
+      "cross_score_larger_among_flips": 1,
+      "opposite_score_terms_among_flips": 0,
+      "cross_score_alone_crosses_among_flips": 1,
+      "cross_score_alone_crosses_among_agreements": 0
+    }
+  },
+  "checked_primary_csv_sha256": "d10047644ca41d46450c9784f4692b068fa2ef2311016cb8289e8a809478e744"
+}
